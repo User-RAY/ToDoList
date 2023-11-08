@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	margin-top: 2em;
+	background: black;
+	color: white;
+}
+
+
+h1 {
+	text-align: center;
+}
+
+
+
+.container {
+	display: flex;
+	justify-content: center;
+	margin: 2em;
+}
+
+
+#todobtn {
+
+	margin-left: 1em;
+	padding: .5em;
+}
+
+
+.what {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+
+.red {
+	color: red;
+} 
